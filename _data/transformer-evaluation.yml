@@ -1,5 +1,89 @@
 - paper:
     type: preprint
+    text: '[Kaspar Märtens et al. 2024](https://openreview.net/pdf?id=eb3ndUlkt4)'
+    url: https://openreview.net/pdf?id=eb3ndUlkt4
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/valence-labs/Tx-Evaluation)'
+    url: 'https://github.com/valence-labs/Tx-Evaluation'
+  omic_modalities: '-'
+  evaluated_transformers: '-'
+  tasks: '-'
+  notes: '-'
+
+
+
+- paper:
+    type: preprint
+    text: '[Ihab Bendidi et al. 2024](https://arxiv.org/pdf/2410.13956)'
+    url: https://arxiv.org/pdf/2410.13956
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/valence-labs/Tx-Evaluation)'
+    url: 'https://github.com/valence-labs/Tx-Evaluation'
+  omic_modalities: '-'
+  evaluated_transformers: '-'
+  tasks: '-'
+  notes: '-'
+
+- paper:
+    type: preprint
+    text: '[George Crowley et al. 2024](https://www.biorxiv.org/content/10.1101/2024.10.10.617605v1.full.pdf)'
+    url: https://www.biorxiv.org/content/10.1101/2024.10.10.617605v1.full.pdf
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/ggit12/anndictionary/)'
+    url: 'https://github.com/ggit12/anndictionary/'
+  omic_modalities: '-'
+  evaluated_transformers: '-'
+  tasks: '-'
+  notes: '-'
+
+
+- paper:
+    type: preprint
+    text: '[Yan Wu et al. 2024](https://scholar.google.com/scholar?cluster=18315006149844520972&hl=en&as_sdt=0,5)'
+    url: https://scholar.google.com/scholar?cluster=18315006149844520972&hl=en&as_sdt=0,5
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/altoslabs/perturbench)'
+    url: 'https://github.com/altoslabs/perturbench'
+  omic_modalities: '-'
+  evaluated_transformers: '-'
+  tasks: '-'
+  notes: '-'
+
+- paper:
+    type: preprint
+    text: '[A. Wenteler et al. 2024](https://www.biorxiv.org/content/10.1101/2024.10.02.616248v1.abstract)'
+    url: https://www.biorxiv.org/content/10.1101/2024.10.02.616248v1.abstract
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/aaronwtr/PertEval)'
+    url: 'https://github.com/aaronwtr/PertEval'
+  omic_modalities: 'scRNA-seq'
+  evaluated_transformers: 'UCE, scBERT, scGPT, Geneformer, scFoundation'
+  tasks: 'Transcriptomic perturbation prediction'
+  notes: 'Introduces PertEval-scFM, a benchmark to assess the zero-shot utility of single-cell foundation model embeddings for transcriptomic perturbation prediction. Uses SPECTRA to generate train-test splits with increasing dissimilarity to evaluate robustness against distribution shift. Models are evaluated with MSE and AUSPC, with AUSPC reflecting robustness under distribution shift. Additional analyses include E-distance and predicted transcriptomic distributions across the top 20 DEGs. Findings suggest that single-cell foundation model embeddings capture average perturbation effects but generally lack robustness to distribution shift. Ongoing work demonstrates that the domain-specific model GEARS outperforms foundation model embeddings, indicating that masked-language modeling on gene expression data without domain-specific inductive biases is insufficient for accurate transcriptomic perturbation prediction.'
+
+
+
+- paper:
+    type: preprint
+    text: '[Eric Kernfeld et al. 2024](https://www.biorxiv.org/content/10.1101/2023.07.28.551039v2.full)'
+    url: https://www.biorxiv.org/content/10.1101/2023.07.28.551039v2.full
+  code:
+    type: 'reproducible'
+    text: '[ð\x9F\x9B\_ï¸\x8FGitHub](https://github.com/ekernf01/perturbation_benchmarking)'
+    url: 'https://github.com/ekernf01/perturbation_benchmarking'
+  omic_modalities: '-'
+  evaluated_transformers: '-'
+  tasks: '-'
+  notes: '-'
+
+
+- paper:
+    type: preprint
     text: '[Yoav Kan-Tor et al. 2024](https://arxiv.org/abs/2412.04075)'
     url: https://arxiv.org/abs/2412.04075
   code:
